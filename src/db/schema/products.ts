@@ -1,5 +1,5 @@
 import { pgTable, uuid, varchar, text, timestamp, integer, boolean, pgEnum } from 'drizzle-orm/pg-core'
-import { users } from './users.js'
+import { users } from './users'
 
 export const productTypeEnum = pgEnum('product_type', ['code', 'course'])
 export const licenceTypeEnum = pgEnum('licence_type', ['personal', 'commercial', 'both'])
